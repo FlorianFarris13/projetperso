@@ -1,14 +1,37 @@
+.nav-link{
+	color:red;
+	cursor:url('http://localhost/project/projetperso/colt.png'), pointer;
+}
+
+
 .mafia{
 	color: red;
+	cursor:url('http://localhost/project/projetperso/colt.png'), pointer;
 }
 
 .origine{
 	color: red;
 	font-size:20px;
+	cursor:url('http://localhost/project/projetperso/colt.png'), pointer;
 }
 
 .french{
 	color: red;
+	cursor:url('http://localhost/project/projetperso/colt.png'), pointer;
+}
+.zampa {
+	color: red;
+}
+.narco{
+	color: red;
+}
+.escobar {
+	color: red;
+}
+.mail{
+	text-align: center;
+	color: red;
+
 }
 
 /*body {
@@ -23,7 +46,7 @@
 .title {
   font-weight: 3px;
   font-size: 100px;
-  margin: 10%;
+  margin: 0%;
   filter: url(#goo);
   position: relative;
   letter-spacing: .12em;
@@ -37,32 +60,41 @@
   width: .1em;
   height: .1em;
   border-radius: 0 100% 100% 100%;
-  background-color: currentColor;
+  background-color: currentColor; 
   position: absolute;
   top: 71%;
-  animation: drop 5s infinite both;
-  left: 1%;
+  animation: drop 7s infinite both;
+  left: 13%;
+  animation-delay: -1.2s;
 
 }
 .drop:nth-child(2) {
-  left: 10%;
+  left: 17%;
   animation-delay: -.4s;
 }
 .drop:nth-child(3) {
-  left: 15%;
+  left: 23%;
   animation-delay: -1.2s;
 }
 .drop:nth-child(4) {
-  left: 22%;
+  left: 26%;
   animation-delay: -.8s;
 }
 .drop:nth-child(5) {
-  left: 32%;
+  left: 30%;
   animation-delay: -1.3s;
 }
 .drop:nth-child(6) {
-  left: 36%;
+  left: 32.4%;
   animation-delay: -1.6s;
+}
+.drop:nth-child(7) {
+	left: 38%;
+	animation-delay: -1.2s;
+}
+.drop:nth-child(8) {
+	left: 42%;
+	animation-delay: -1.4s;
 }
 
 @keyframes drop {

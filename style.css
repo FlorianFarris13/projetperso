@@ -1,0 +1,80 @@
+.mafia{
+	color: red;
+}
+
+.origine{
+	color: red;
+	font-size:20px;
+}
+
+.french{
+	color: red;
+}
+
+/*body {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	font-family: Raleway, sans-serif;
+	background-color: black;
+}
+*/
+.title {
+  font-weight: 3px;
+  font-size: 100px;
+  margin: 10%;
+  filter: url(#goo);
+  position: relative;
+  letter-spacing: .12em;
+  color: red;
+  text-transform: uppercase;
+  
+
+}
+
+.drop {
+  width: .1em;
+  height: .1em;
+  border-radius: 0 100% 100% 100%;
+  background-color: currentColor;
+  position: absolute;
+  top: 71%;
+  animation: drop 5s infinite both;
+  left: 1%;
+
+}
+.drop:nth-child(2) {
+  left: 10%;
+  animation-delay: -.4s;
+}
+.drop:nth-child(3) {
+  left: 15%;
+  animation-delay: -1.2s;
+}
+.drop:nth-child(4) {
+  left: 22%;
+  animation-delay: -.8s;
+}
+.drop:nth-child(5) {
+  left: 32%;
+  animation-delay: -1.3s;
+}
+.drop:nth-child(6) {
+  left: 36%;
+  animation-delay: -1.6s;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(0) scaleX(0.85) rotate(45deg);
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(120%) scaleX(0.85) rotate(45deg);
+    animation-timing-function: ease-in;
+  }
+  80%, 100% {
+    transform: translateY(60vh) scaleX(0.85) rotate(45deg);
+  }
+}
